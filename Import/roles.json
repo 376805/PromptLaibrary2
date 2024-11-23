@@ -1,0 +1,14 @@
+{
+    "roles": [
+      {
+        "id": "qa-engineer",
+        "name": "QA Engineer",
+        "description": "Focuses on quality assurance and testing"
+      },
+      {
+        "id": "automation-expert",
+        "name": "Automation Expert",
+        "description": "Specializes in automation frameworks and strategies"
+      }
+    ]
+  }

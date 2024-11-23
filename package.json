@@ -1,0 +1,52 @@
+{
+  "homepage": "https://376805.github.io/promptlaibrary2",
+  "name": "prompt-library",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0 <20.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "lucide-react": "^0.294.0",
+    "postcss": "^8.4.49",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.3.3",
+    "uuid": "^9.0.1",
+    "vite": "^5.0.12",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/dompurify": "^3.2.0",
+    "@types/react-dropzone": "^5.1.0",
+    "dompurify": "^3.2.1",
+    "gh-pages": "^6.2.0",
+    "serve": "^14.2.4"
+  }
+}

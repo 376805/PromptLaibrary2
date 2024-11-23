@@ -1,0 +1,26 @@
+{
+    "roles": [
+      {
+        "id": "test-case-designer",
+        "name": "Test Case Designer",
+        "description": "Creates and designs test cases from requirements and user stories"
+      }
+    ],
+    "templates": [
+      {
+        "id": "user-story-test-cases",
+        "name": "User Story to Test Cases",
+        "role": "test-case-designer",
+        "content": "Role:\nYou are an expert Test Case Designer...",
+        "description": "Convert user stories into comprehensive test cases",
+        "bestPractices": [
+          "Cover all acceptance criteria",
+          "Include positive and negative scenarios",
+          "Consider edge cases",
+          "Add validation checks",
+          "Include error scenarios"
+        ],
+        "requiresUserStory": true
+      }
+    ]
+  }
