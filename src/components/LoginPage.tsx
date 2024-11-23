@@ -44,7 +44,7 @@ export const LoginPage = () => {
         </button>
 
         <div className="flex justify-center mb-8">
-          <img src="Logo.svg" alt="Prompt LAIbrary Logo" className="w-16 h-16" />
+          <img src={`${import.meta.env.BASE_URL}Logo.svg`} alt="Prompt LAIbrary Logo" className="w-16 h-16" />
         </div>
         
         <h1 className="text-2xl font-bold text-center mb-6 text-gray-900 dark:text-gray-100">

@@ -15,6 +15,12 @@ export default defineConfig({
         manualChunks: {
           vendor: ['react', 'react-dom'],
           ui: ['lucide-react', 'react-hot-toast']
+        },
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name === 'Logo.svg') {
+            return 'Logo.svg';
+          }
+          return 'assets/[name]-[hash][extname]';
         }
       }
     }

@@ -53,7 +53,7 @@ export const Sidebar = () => {
       <div className={`p-5 ${isCollapsed ? 'px-3' : 'px-5'} flex flex-col h-full`}>
         <div className={`flex items-center gap-3 mb-10 ${isCollapsed ? 'justify-center' : ''}`}>
           <img 
-            src="/Logo.svg" 
+            src={`${import.meta.env.BASE_URL}Logo.svg`} 
             alt="Prompt LAIbrary Logo" 
             className={`${isCollapsed ? 'w-8 h-8' : 'w-10 h-10'} shrink-0`}
           />
