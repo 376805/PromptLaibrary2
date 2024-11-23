@@ -241,7 +241,7 @@ The PreviewPage component handles the preview and LLM integration functionality:
 
 3. LLM Integration
 ```typescript
-// Open AI integration for prompt enhancement
+// Azure OpenAI integration for prompt enhancement
 - Raw content submission
 - Response parsing
 - Code snippet extraction
