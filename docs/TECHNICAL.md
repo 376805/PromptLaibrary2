@@ -241,7 +241,7 @@ The PreviewPage component handles the preview and LLM integration functionality:
 
 3. LLM Integration
 ```typescript
-// Mistral AI integration for prompt enhancement
+// Azure OpenAI integration for prompt enhancement
 - Raw content submission
 - Response parsing
 - Code snippet extraction
@@ -254,10 +254,10 @@ The PreviewPage component handles the preview and LLM integration functionality:
 
 ### Services
 
-#### Mistral API Integration
+#### Open API Integration
 ```typescript
 // API endpoint configuration
-const MISTRAL_API_ENDPOINT = 'https://api.mistral.ai/v1/chat/completions';
+const Open_API_ENDPOINT = 'https://api.Open.ai/v1/chat/completions';
 
 // Authentication
 - Bearer token authentication
@@ -383,7 +383,7 @@ yarn build
 
 ### Environment Configuration
 ```env
-MISTRAL_API_KEY=your_api_key
+Open_API_KEY=your_api_key
 ```
 
 ## Maintenance
