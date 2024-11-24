@@ -1,5 +1,5 @@
 {
-  "homepage": "https://376805.github.io/promptlaibrary2",
+  "homepage": "https://376805.github.io/PromptLaibrary2",
   "name": "prompt-library",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "start": "node server.js"
   },
